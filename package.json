@@ -1,0 +1,19 @@
+{
+  "name": "ui-busy",
+  "version": "0.0.0",
+  "description": "A wait indicator as an element.",
+  "main": "index.js",
+  "scripts": {
+    "test": "polymer-serve ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Custom-Elements/ui-busy.git"
+  },
+  "author": "David Hayes <drhayes@gmail.com> (http://drhayes.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Custom-Elements/ui-busy/issues"
+  },
+  "homepage": "https://github.com/Custom-Elements/ui-busy"
+}

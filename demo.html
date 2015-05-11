@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <title>ui-busy</title>
+    <link rel="import" href="https://services.glgresearch.com/ui-toolkit/polymer.html">
+    <link rel="import" href="src/ui-busy.html">
+    <style>
+      body {
+        font-family: "Helvetica Neue", "Helvetica", "Arial";
+        color: #454545;
+        font-size: 16px;
+      }
+
+      .blue::shadow svg {
+        fill: steelblue;
+      }
+
+      .small {
+        font-size: 0.75em;
+      }
+
+      .bigmclargehuge {
+        font-size: 4em;
+      }
+    </style>
+  </head>
+  <body container unresolved>
+    <h1>ui-busy</h1>
+    <p>Base font size is 16px.</p>
+    <ul>
+      <li>
+        Default: <ui-busy></ui-busy>
+      </li>
+      <li>
+        Blue steel fill: <ui-busy class="blue"></ui-busy>
+      </li>
+      <li class="small">
+        Small: <ui-busy></ui-busy>
+      </li>
+      <li class="bigmclargehuge">
+        Big McLarge Huge: <ui-busy></ui-busy>
+      </li>
+    </ul>
+
+  </body>
+</html>
