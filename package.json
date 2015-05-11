@@ -6,6 +6,9 @@
   "scripts": {
     "test": "polymer-serve ./"
   },
+  "dependencies": {
+    "polymer": "git://github.com/custom-elements/polymer#master"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Custom-Elements/ui-busy.git"
